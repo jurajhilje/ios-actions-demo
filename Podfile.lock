@@ -1,0 +1,32 @@
+PODS:
+  - OpenSSL-Apple (1.1.1g.6)
+  - SwiftyBeaver (1.9.1)
+  - TunnelKit (2.2.5):
+    - TunnelKit/Protocols/OpenVPN (= 2.2.5)
+  - TunnelKit/AppExtension (2.2.5):
+    - SwiftyBeaver
+    - TunnelKit/Core
+  - TunnelKit/Core (2.2.5):
+    - SwiftyBeaver
+  - TunnelKit/Protocols/OpenVPN (2.2.5):
+    - OpenSSL-Apple (~> 1.1.1g.6)
+    - TunnelKit/AppExtension
+    - TunnelKit/Core
+
+DEPENDENCIES:
+  - TunnelKit (~> 2.2.5)
+
+SPEC REPOS:
+  trunk:
+    - OpenSSL-Apple
+    - SwiftyBeaver
+    - TunnelKit
+
+SPEC CHECKSUMS:
+  OpenSSL-Apple: c9c1b9c5b2b1fc4e1758fc5f0836b58ae7fd8183
+  SwiftyBeaver: a1f5691458561414bcfab51874b2b7445451602b
+  TunnelKit: 17c6af76028b29cc6ddc936160986a4d12e09266
+
+PODFILE CHECKSUM: 1f74cdd8157ac6c0dfd4f459b8efc3be9e3ddb1b
+
+COCOAPODS: 1.8.4
