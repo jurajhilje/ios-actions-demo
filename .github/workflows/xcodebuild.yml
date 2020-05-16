@@ -1,15 +1,12 @@
 name: Xcodebuild
 
-on:
-  push:
-
+on: push
 jobs:
   test:
     name: Test
     runs-on: macOS-latest
-
-steps:
-  - name: Dependencies
-    run: pod install
-  - name: Build and test
-    run: xcodebuild test -workspace 'ios-actions-demo.xcworkspace' -scheme 'ios-actions-demo' -destination 'platform=iOS Simulator,name=iPhone 11'
+    steps:
+    - name: Dependencies
+      run: pod install
+    - name: Build and test
+      run: xcodebuild test -workspace 'ios-actions-demo.xcworkspace' -scheme 'ios-actions-demo' -destination 'platform=iOS Simulator,name=iPhone 11'
