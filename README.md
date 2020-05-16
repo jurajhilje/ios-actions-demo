@@ -1,3 +1,5 @@
+![SwiftLint](https://github.com/jurajhilje/ios-actions-demo/workflows/SwiftLint/badge.svg)
+
 ## Requirements
 
 - iOS 12.0+
