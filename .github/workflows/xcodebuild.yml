@@ -1,0 +1,19 @@
+name: CI/CD
+
+on: pull_request
+jobs:
+  test:
+    name: Unit and UI Tests
+    runs-on: macOS-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/cache@v1
+      with:
+        path: Pods
+        key: ${{ runner.os }}-pods-${{ hashFiles('**/Podfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-pods-
+    - name: Dependencies
+      run: pod install
+    - name: Build and test
+      run: xcodebuild test -workspace 'ios-actions-demo.xcworkspace' -scheme 'ios-actions-demo' -destination 'platform=iOS Simulator,name=iPhone 11'
