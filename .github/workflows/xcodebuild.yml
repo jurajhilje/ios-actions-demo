@@ -1,9 +1,9 @@
-name: Xcodebuild
+name: CI/CD
 
 on: push
 jobs:
   test:
-    name: Test
+    name: Unit and UI Tests
     runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v2
