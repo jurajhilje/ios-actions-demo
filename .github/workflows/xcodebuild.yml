@@ -6,6 +6,7 @@ jobs:
     name: Test
     runs-on: macOS-latest
     steps:
+    - uses: actions/checkout@v2
     - name: Dependencies
       run: pod install
     - name: Build and test
