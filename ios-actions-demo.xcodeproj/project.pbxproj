@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		08DDD46C7843193A0C8A9F4D /* Pods_openvpn_tunnel_provider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042B1F5A4F38CCA3591AD441 /* Pods_openvpn_tunnel_provider.framework */; };
+		82292096247C09E900476FC1 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82292095247C09E900476FC1 /* UIColor+Ext.swift */; };
+		82292098247C0A1600476FC1 /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82292097247C0A1600476FC1 /* UIImage+Ext.swift */; };
+		8229209A247C0A5D00476FC1 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82292099247C0A5D00476FC1 /* String+Ext.swift */; };
+		8229209C247C0A8800476FC1 /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8229209B247C0A8800476FC1 /* Bundle+Ext.swift */; };
+		8229209E247C0AAF00476FC1 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8229209D247C0AAF00476FC1 /* Date+Ext.swift */; };
 		823D9846246ED59F005A86D8 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D9845246ED59F005A86D8 /* UITests.swift */; };
 		824F56082233FE6F00BCDD5C /* libwg-go.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 824F56072233FE6F00BCDD5C /* libwg-go.a */; };
 		8294BC8C22A10F4100328932 /* TunnelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8294BC8B22A10F4100328932 /* TunnelKit.framework */; };
@@ -81,6 +86,11 @@
 /* Begin PBXFileReference section */
 		042B1F5A4F38CCA3591AD441 /* Pods_openvpn_tunnel_provider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_openvpn_tunnel_provider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		751AB84B8432BC3E6BEDD483 /* Pods_today_extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_today_extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82292095247C09E900476FC1 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		82292097247C0A1600476FC1 /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		82292099247C0A5D00476FC1 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		8229209B247C0A8800476FC1 /* Bundle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Ext.swift"; sourceTree = "<group>"; };
+		8229209D247C0AAF00476FC1 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		823D9843246ED59F005A86D8 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		823D9845246ED59F005A86D8 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		823D9847246ED59F005A86D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -190,6 +200,18 @@
 			path = ../Pods;
 			sourceTree = "<group>";
 		};
+		82292094247C09D800476FC1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				82292095247C09E900476FC1 /* UIColor+Ext.swift */,
+				82292097247C0A1600476FC1 /* UIImage+Ext.swift */,
+				82292099247C0A5D00476FC1 /* String+Ext.swift */,
+				8229209B247C0A8800476FC1 /* Bundle+Ext.swift */,
+				8229209D247C0AAF00476FC1 /* Date+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		823D9844246ED59F005A86D8 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +279,7 @@
 		9CDDD5AD1D9D2F9F00D39924 /* ios-actions-demo */ = {
 			isa = PBXGroup;
 			children = (
+				82292094247C09D800476FC1 /* Extensions */,
 				9CDDD5AE1D9D2F9F00D39924 /* AppDelegate.swift */,
 				9CDDD5BA1D9D2F9F00D39924 /* Info.plist */,
 				9CB2CE261DAA6C1B007A4D2D /* ios-actions-demo.entitlements */,
@@ -643,7 +666,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82292098247C0A1600476FC1 /* UIImage+Ext.swift in Sources */,
 				9CDDD5AF1D9D2F9F00D39924 /* AppDelegate.swift in Sources */,
+				8229209C247C0A8800476FC1 /* Bundle+Ext.swift in Sources */,
+				8229209E247C0AAF00476FC1 /* Date+Ext.swift in Sources */,
+				8229209A247C0A5D00476FC1 /* String+Ext.swift in Sources */,
+				82292096247C09E900476FC1 /* UIColor+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
