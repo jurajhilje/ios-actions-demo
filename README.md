@@ -1,4 +1,5 @@
 ![SwiftLint](https://github.com/jurajhilje/ios-actions-demo/workflows/SwiftLint/badge.svg)
+![CI/CD](https://github.com/jurajhilje/ios-actions-demo/workflows/CI/CD/badge.svg)
 
 ## Requirements
 
