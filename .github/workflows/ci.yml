@@ -19,4 +19,4 @@ jobs:
     - name: Dependencies
       run: pod install
     - name: Build and test
-      run: xcodebuild test -workspace 'ios-actions-demo.xcworkspace' -scheme 'ios-actions-demo' -destination 'platform=iOS Simulator,OS=14.0,name=iPhone 12'
+      run: xcodebuild test -workspace 'ios-actions-demo.xcworkspace' -scheme 'ios-actions-demo' -destination 'platform=iOS Simulator,OS=14.0,name=iPhone 11'
