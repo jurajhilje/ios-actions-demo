@@ -4,8 +4,11 @@ on: pull_request
 jobs:
   test:
     name: Unit and UI Tests
-    runs-on: macOS-latest
+    runs-on: macos-10.15
     steps:
+    - uses: actions/setup-go@v2
+      with:
+        go-version: 1.14
     - uses: actions/checkout@v2
     - uses: actions/cache@v1
       with:
@@ -16,4 +19,4 @@ jobs:
     - name: Dependencies
       run: pod install
     - name: Build and test
-      run: xcodebuild test -workspace 'ios-actions-demo.xcworkspace' -scheme 'ios-actions-demo' -destination 'platform=iOS Simulator,name=iPhone 11'
+      run: xcodebuild test -workspace 'ios-actions-demo.xcworkspace' -scheme 'ios-actions-demo' -destination 'platform=iOS Simulator,OS=14.0,name=iPhone 12'
