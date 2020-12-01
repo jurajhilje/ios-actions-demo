@@ -409,7 +409,7 @@
 					};
 					82B605222170840C004B40E6 = {
 						CreatedOnToolsVersion = 10.0;
-						DevelopmentTeam = WQXXM75BYN;
+						DevelopmentTeam = H466FTR5J5;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -426,7 +426,7 @@
 					};
 					9C7840A720CD8A8A00335736 = {
 						CreatedOnToolsVersion = 9.4;
-						DevelopmentTeam = WQXXM75BYN;
+						DevelopmentTeam = H466FTR5J5;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -834,7 +834,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WQXXM75BYN;
+				DEVELOPMENT_TEAM = H466FTR5J5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -871,7 +871,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WQXXM75BYN;
+				DEVELOPMENT_TEAM = H466FTR5J5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -918,7 +918,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WQXXM75BYN;
+				DEVELOPMENT_TEAM = H466FTR5J5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/**",
@@ -959,7 +959,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WQXXM75BYN;
+				DEVELOPMENT_TEAM = H466FTR5J5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/**",
