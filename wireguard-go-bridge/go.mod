@@ -1,6 +1,6 @@
 module golang.zx2c4.com/wireguard/ios
 
-go 1.14
+go 1.13
 
 require (
 	golang.org/x/sys v0.0.0-20200302150141-5c8b2ff67527
